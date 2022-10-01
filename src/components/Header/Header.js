@@ -10,6 +10,7 @@ import {
   Div3,
   NavLink,
   SocialIcons,
+  Span,
 } from "./HeaderStyles";
 
 const Header = () => (
@@ -17,12 +18,60 @@ const Header = () => (
     <Div1>
       <Link href="/">
         <a
-          style={{ display: "flex", alignItems: "center", color: "whitesmoke" }}
+          style={{
+            display: "flex",
+            alignItems: "center",
+            color: "whitesmoke",
+            marginBottom: "20px",
+          }}
         >
-          <DiCssdeck size="3rem" /> <span>Mario M. Elizalde</span>
+          <DiCssdeck size="5rem" /> <Span>Mario M. Elizalde</Span>
         </a>
       </Link>
     </Div1>
+    <Div2>
+      <a
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "space-between",
+          color: "whitesmoke",
+          marginBottom: "25px",
+        }}
+      >
+        <li>
+          <Link href="#projects">
+            <NavLink>Projects</NavLink>
+          </Link>
+        </li>
+        <li>
+          <Link href="#edu">
+            <NavLink>Education</NavLink>
+          </Link>
+        </li>
+        <li>
+          <Link href="#tech">
+            <NavLink>Technologies</NavLink>
+          </Link>
+        </li>
+        <li>
+          <Link href="#about">
+            <NavLink>About</NavLink>
+          </Link>
+        </li>
+      </a>
+    </Div2>
+    <Div3>
+      <SocialIcons href="https://github.com/marioebros">
+        <AiFillGithub size="3rem" />
+      </SocialIcons>
+      <SocialIcons href="https://www.linkedin.com/in/mariomeliz/">
+        <AiFillLinkedin size="3rem" />
+      </SocialIcons>
+      <SocialIcons href="https://www.instagram.com/issa_mmeh/">
+        <AiFillGithub size="3rem" />
+      </SocialIcons>
+    </Div3>
   </Container>
 );
 
