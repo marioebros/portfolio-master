@@ -33,15 +33,17 @@ const Footer = () => {
         <CompanyContainer>
           <Slogan>Keep it simple.</Slogan>
         </CompanyContainer>
-        <SocialIcons href="https://github.com/marioebros">
-          <AiFillGithub size="3rem" />
-        </SocialIcons>
-        <SocialIcons href="https://www.linkedin.com/in/mariomeliz/">
-          <AiFillLinkedin size="3rem" />
-        </SocialIcons>
-        <SocialIcons href="https://www.instagram.com/issa_mmeh/">
-          <AiFillInstagram size="3rem" />
-        </SocialIcons>
+        <SocialContainer>
+          <SocialIcons href="https://github.com/marioebros">
+            <AiFillGithub size="3rem" />
+          </SocialIcons>
+          <SocialIcons href="https://www.linkedin.com/in/mariomeliz/">
+            <AiFillLinkedin size="3rem" />
+          </SocialIcons>
+          <SocialIcons href="https://www.instagram.com/issa_mmeh/">
+            <AiFillInstagram size="3rem" />
+          </SocialIcons>
+        </SocialContainer>
       </SocialIconsContainer>
     </FooterWrapper>
   );
