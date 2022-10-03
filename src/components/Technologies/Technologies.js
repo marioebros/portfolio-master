@@ -27,7 +27,7 @@ const Technologies = () => (
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
       I've worked with a variety of Technologies in the Web Development world,
-      thus far. From Back-End to UX Design!
+      thus far. From Back-End to Blockchain!
     </SectionText>
     <List>
       <ListItem>
@@ -36,7 +36,14 @@ const Technologies = () => (
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
             Experience with <br />
-            React.js
+            React.js <br />
+            JavaScript <br />
+            HTML5 <br />
+            CSS <br />
+            NPM <br />
+            Flutter <br />
+            CSS Tailwind <br />
+            Bootstrap
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -46,7 +53,10 @@ const Technologies = () => (
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
             Experience with <br />
-            Node.js and Databases
+            Node.js and Databases <br />
+            PHP <br />
+            Java <br />
+            SQL
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -56,7 +66,11 @@ const Technologies = () => (
           <ListTitle>Blockchain</ListTitle>
           <ListParagraph>
             Experience with <br />
-            Solidity
+            Solidity <br />
+            Stellar <br />
+            Ethereum <br />
+            Smart Contracts <br />
+            Cryptography
           </ListParagraph>
         </ListContainer>
       </ListItem>

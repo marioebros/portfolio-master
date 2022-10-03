@@ -12,7 +12,7 @@ export const projects = [
   {
     title: "Calculator App",
     description:
-      "While building it you're going to learn many advanced React & JavaScript topics, as well as how to use Stripe for card transactions. On top of that, at the end of the video, you will have this unique and complex webshop app that you will be able to add to your portfolio. And trust me, e-commerce applications are impressive.",
+      "Built mainly using JavaScript as the foundation for all operations available on a calculator; HTML & CSS brought the project together with JS interactivity. While building it you're going to learn many advanced React & JavaScript topics, as well as how to use Stripe for card transactions. On top of that, at the end of the video, you will have this unique and complex webshop app that you will be able to add to your portfolio. And trust me, e-commerce applications are impressive.",
     image: "/images/calculator-app.png",
     tags: ["JavaScript", "HTML", "CSS"],
     source: "https://github.com/marioebros/project-calculator",
@@ -22,7 +22,7 @@ export const projects = [
   {
     title: "Rock, Paper, Scissors",
     description:
-      "This is a code repository for the corresponding YouTube video. In this tutorial, we're going to build and deploy a React Video Chat Application using WebRTC.",
+      "Part of The Odin Project: Foundations; making use of HTML, CSS, & JavaScript. A working rock, paper, scissors game played against the computer. Served as an introduction to the interactivity that JS provides.",
     image: "/images/rps.png",
     tags: ["JavaScript", "HTML", "CSS"],
     source: "https://github.com/marioebros/project-rock-paper-scissors",

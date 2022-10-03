@@ -34,7 +34,7 @@ const Header = () => (
         style={{
           display: "flex",
           alignItems: "center",
-          justifyContent: "space-between",
+          // justifyContent: "space-between",
           color: "whitesmoke",
           marginBottom: "25px",
         }}
@@ -42,11 +42,6 @@ const Header = () => (
         <li>
           <Link href="#projects">
             <NavLink>Projects</NavLink>
-          </Link>
-        </li>
-        <li>
-          <Link href="#edu">
-            <NavLink>Education</NavLink>
           </Link>
         </li>
         <li>
