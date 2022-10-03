@@ -37,7 +37,7 @@ export const SectionTitle = styled.h2`
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  margin-bottom: 16px;
+  margin-bottom: 20px;
   padding: ${(props) => (props.main ? "58px 0 16px" : "0")};
 
   @media ${(props) => props.theme.breakpoints.md} {
@@ -64,7 +64,7 @@ export const SectionText = styled.p`
   line-height: 40px;
   font-weight: 300;
   padding-bottom: 3.6rem;
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(229, 228, 226, 0.95);
 
   @media ${(props) => props.theme.breakpoints.md} {
     max-width: 670px;
@@ -87,8 +87,8 @@ export const SectionDivider = styled.div`
   background-color: #fff;
   background: ${(props) =>
     props.colorAlt
-      ? "linear-gradient(270deg, #080808 50%, #474341 80%)"
-      : "linear-gradient(270deg, #080808 50%, #474341 80%)"};
+      ? "linear-gradient(270deg, #A71D31 0%, #3F0D12 100%)"
+      : "linear-gradient(270deg, #A40606 0%, #3F0D12 100%)"};
 
   margin: ${(props) => (props.divider ? "4rem 0" : "")};
 
@@ -140,7 +140,7 @@ export const SecondaryBtn = styled.button`
   }
 
   &:hover {
-    color: #0f1624;
+    color: #3f0d12;
     background: #fff;
     border: 1px solid #fff;
   }
@@ -184,8 +184,8 @@ export const ButtonBack = styled.div`
   color: #fff;
   background: ${({ alt }) =>
     alt
-      ? "linear-gradient(270deg, #ff622e 0%, #B133FF 100%)"
-      : "linear-gradient(270deg, #00DBD8 0%, #B133FF 100%)"};
+      ? "linear-gradient(270deg, #A71D31 0%, #3F0D12 100%)"
+      : "linear-gradient(270deg, #A40606 0%, #3F0D12 100%)"};
   cursor: pointer;
   transition: 0.5s ease;
   position: relative;
@@ -219,8 +219,8 @@ export const ButtonFront = styled.button`
   height: 100%;
   background: ${({ alt }) =>
     alt
-      ? "linear-gradient(270deg, #F46737 0%, #945DD6 100%)"
-      : "linear-gradient(270deg, #13ADC7 0%, #945DD6 100%)"};
+      ? "linear-gradient(270deg, #A71D31 0%, #3F0D12 100%)"
+      : "linear-gradient(270deg, #A40606 0%, #3F0D12 100%)"};
   opacity: ${({ disabled }) => (disabled ? ".5" : "1")};
   transition: 0.4s ease;
   font-size: ${({ alt }) => (alt ? "20px" : "24px")};
