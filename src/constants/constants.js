@@ -12,7 +12,7 @@ export const projects = [
   {
     title: "Calculator App",
     description:
-      "Built mainly using JavaScript as the foundation for all operations available on a calculator; HTML & CSS brought the project together with JS interactivity. While building it you're going to learn many advanced React & JavaScript topics, as well as how to use Stripe for card transactions. On top of that, at the end of the video, you will have this unique and complex webshop app that you will be able to add to your portfolio. And trust me, e-commerce applications are impressive.",
+      "Built mainly using JavaScript as the foundation for all operations available on a calculator; HTML & CSS brought the project together with JS interactivity. While building it you're going to learn many advanced React & JavaScript topics. And trust me, e-commerce applications are impressive.",
     image: "/images/calculator-app.png",
     tags: ["JavaScript", "HTML", "CSS"],
     source: "https://github.com/marioebros/project-calculator",
@@ -33,8 +33,8 @@ export const projects = [
     title: "G's",
     description:
       "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application",
-    image: "/images/4.jpg",
-    tags: ["JavaScript", "CSS"],
+    image: "/images/g-s.png",
+    tags: ["JavaScript", "CSS", "Webpack"],
     source: "https://github.com/marioebros/restaurant-page",
     visit: "https://marioebros.github.io/restaurant-page/",
     id: 3,

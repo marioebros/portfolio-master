@@ -33,6 +33,7 @@ const Header = () => (
       <a
         style={{
           display: "flex",
+          width: "500x",
           alignItems: "center",
           // justifyContent: "space-between",
           color: "whitesmoke",
