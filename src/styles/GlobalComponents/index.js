@@ -65,6 +65,7 @@ export const SectionText = styled.p`
   font-weight: 300;
   padding-bottom: 3.6rem;
   color: rgba(229, 228, 226, 0.95);
+  text-shadow: 2px 2px 4px #080808;
 
   @media ${(props) => props.theme.breakpoints.md} {
     max-width: 670px;
@@ -87,8 +88,8 @@ export const SectionDivider = styled.div`
   background-color: #fff;
   background: ${(props) =>
     props.colorAlt
-      ? "linear-gradient(270deg, #A71D31 0%, #3F0D12 100%)"
-      : "linear-gradient(270deg, #A40606 0%, #3F0D12 100%)"};
+      ? "linear-gradient(270deg, #C8C1C1 0%, #C8C1C1 100%)"
+      : "linear-gradient(270deg, #4A0404 0%, #C8C1C1 100%)"};
 
   margin: ${(props) => (props.divider ? "4rem 0" : "")};
 
@@ -108,6 +109,7 @@ export const SectionSubText = styled.p`
   font-size: 18px;
   line-height: 32px;
   color: rgba(255, 255, 255, 0.75);
+  text-shadow: 2px 2px 4px #080808;
 
   @media ${(props) => props.theme.breakpoints.md} {
     max-width: 672px;
@@ -184,8 +186,8 @@ export const ButtonBack = styled.div`
   color: #fff;
   background: ${({ alt }) =>
     alt
-      ? "linear-gradient(270deg, #A71D31 0%, #3F0D12 100%)"
-      : "linear-gradient(270deg, #A40606 0%, #3F0D12 100%)"};
+      ? "linear-gradient(270deg, #C8C1C1 0%, #C8C1C1 100%)"
+      : "linear-gradient(270deg, #4A0404 0%, #C8C1C1 100%)"}; #C8C1C1
   cursor: pointer;
   transition: 0.5s ease;
   position: relative;
@@ -219,8 +221,8 @@ export const ButtonFront = styled.button`
   height: 100%;
   background: ${({ alt }) =>
     alt
-      ? "linear-gradient(270deg, #A71D31 0%, #3F0D12 100%)"
-      : "linear-gradient(270deg, #A40606 0%, #3F0D12 100%)"};
+      ? "linear-gradient(270deg, #C8C1C1 0%, #C8C1C1 100%)"
+      : "linear-gradient(270deg, #4A0404 0%, #C8C1C1 100%)"};
   opacity: ${({ disabled }) => (disabled ? ".5" : "1")};
   transition: 0.4s ease;
   font-size: ${({ alt }) => (alt ? "20px" : "24px")};
@@ -269,7 +271,7 @@ export const LinkContainer = styled.div`
   padding: 8px;
 
   &:hover {
-    background-color: #212d45;
+    background-color: rgba(74, 4, 4, 0.75);
     transform: scale(1.2);
     cursor: pointer;
   }

@@ -2,9 +2,9 @@ export const projects = [
   {
     title: "Pocket Library",
     description:
-      "Using React, Node.js, Express & MongoDB you'll learn how to build a Full Stack MERN Application - from start to finish. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.",
+      "A small pocket library app built with JavaScript utilizing DOM manipulation to add and delete books as needed without affecting the simple array used to display books.",
     image: "/images/pocket-library.png",
-    tags: ["HTML", "CSS", "JavaScript"],
+    tags: ["JavaScript", "HTML", "CSS"],
     source: "https://github.com/marioebros/library-app",
     visit: "https://marioebros.github.io/library-app/",
     id: 0,
@@ -12,7 +12,7 @@ export const projects = [
   {
     title: "Calculator App",
     description:
-      "Built mainly using JavaScript as the foundation for all operations available on a calculator; HTML & CSS brought the project together with JS interactivity. While building it you're going to learn many advanced React & JavaScript topics. And trust me, e-commerce applications are impressive.",
+      "This project was built using JavaScript as the foundation for all operations available on the calculator; HTML & CSS brought the project together to make a sleek and handy calculator app.",
     image: "/images/calculator-app.png",
     tags: ["JavaScript", "HTML", "CSS"],
     source: "https://github.com/marioebros/project-calculator",
@@ -22,7 +22,7 @@ export const projects = [
   {
     title: "Rock, Paper, Scissors",
     description:
-      "Part of The Odin Project: Foundations; making use of HTML, CSS, & JavaScript. A working rock, paper, scissors game played against the computer. Served as an introduction to the interactivity that JS provides.",
+      "Rock, paper, scissors played against the computer. Made in part for The Odin Project: Foundations; making use of HTML, CSS, & JavaScript.  This project served as an introduction to the interactivity that JS provides in web apps.",
     image: "/images/rps.png",
     tags: ["JavaScript", "HTML", "CSS"],
     source: "https://github.com/marioebros/project-rock-paper-scissors",
@@ -32,7 +32,7 @@ export const projects = [
   {
     title: "G's",
     description:
-      "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application",
+      "One of my latest projects, as part of the Odin Project's Fullstack JavaScript Course. A challenge that utilized JS' DOM manipulation to build the restaurant page. Inspired by G. While building it I learned many advanced Webpack & JavaScript topics.",
     image: "/images/g-s.png",
     tags: ["JavaScript", "CSS", "Webpack"],
     source: "https://github.com/marioebros/restaurant-page",
@@ -45,7 +45,7 @@ export const TimeLineData = [
   { year: 2018, text: "Finished Masters program in Trombone @ BU" },
   {
     year: 2019,
-    text: "Worked in construction & moved to NYC to work with a start-up rental company",
+    text: "Worked in construction & moved to NYC to work with a start-up apartment rental company",
   },
   { year: 2020, text: 'Began working "online" full-time' },
   { year: 2021, text: "Started my developer journey" },

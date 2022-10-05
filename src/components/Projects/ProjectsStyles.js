@@ -14,6 +14,7 @@ export const GridContainer = styled.section`
   place-items: center;
   column-gap: 2rem;
   row-gap: 3rem;
+
   @media ${(props) => props.theme.breakpoints.sm} {
     display: flex;
     flex-direction: column;
@@ -23,7 +24,7 @@ export const GridContainer = styled.section`
 `;
 export const BlogCard = styled.div`
   border-radius: 10px;
-  box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5);
+  box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.75);
   text-align: center;
   width: 400px;
   @media ${(props) => props.theme.breakpoints.sm} {
@@ -45,6 +46,7 @@ export const HeaderThree = styled.h3`
     rgba(255, 255, 255, 0.66) 90.15%
   );
   padding: 0.5rem 0;
+  text-shadow: 2px 2px 4px #080808;
   font-size: ${(props) => (props.title ? "3rem" : "2rem")};
 `;
 
@@ -64,6 +66,7 @@ export const Intro = styled.div`
   font-size: 13px;
   font-style: italic;
   line-height: 18px;
+  text-shadow: 2px 2px 4px #080808;
 `;
 
 export const CardInfo = styled.p`
@@ -73,6 +76,7 @@ export const CardInfo = styled.p`
   font-style: 2rem;
   line-height: 24px;
   text-align: justify;
+  text-shadow: 2px 2px 4px #080808;
   @media ${(props) => props.theme.breakpoints.sm} {
     padding: 0.3rem;
   }
@@ -84,6 +88,7 @@ export const UtilityList = styled.ul`
   display: flex;
   justify-content: space-around;
   margin: 2.5rem 0;
+  text-shadow: 2px 2px 4px #080808;
 `;
 
 export const ExternalLinks = styled.a`
