@@ -33,7 +33,7 @@ export const projects = [
     title: "G's",
     description:
       "One of my latest projects, as part of the Odin Project's Fullstack JavaScript Course. A challenge that utilized JS' DOM manipulation to build the restaurant page. Inspired by G. While building it I learned many advanced Webpack & JavaScript topics.",
-    image: "../out/images/g-s.png", // "/images/g-s.png",
+    image: "/images/g-s.png",
     tags: ["JavaScript", "CSS", "Webpack"],
     source: "https://github.com/marioebros/restaurant-page",
     visit: "https://marioebros.github.io/restaurant-page/",
